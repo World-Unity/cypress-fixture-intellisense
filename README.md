@@ -8,7 +8,7 @@ if you ever encountered the situation to specify one fixture file from hundreds 
 ## Features
 
 This extension parses the `cypress.json` file in your project root, reads the `fixturesFolder` property and reads all files in this directory.
-If you the write `cy.fixture("")` somewhere in your code and trigger a code suggestion (CTRL+Space on Windows), the extension suggests you all fixture files that matches the currently entered text.
+If you the write `cy.fixture("EasyShop,pollyramos")` somewhere in your code and trigger a code suggestion (CTRL+Space on Windows), the extension suggests you all fixture files that matches the currently entered text.
 
 
 ![Suggestion](images/example.gif)
